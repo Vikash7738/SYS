@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-{% load static %}
-<html>
-<head>
-	<title>SYS</title>
-	<link rel="stylesheet" type="text/css" href="{% static 'css/index2.css' %}">
-</head>
-<body>
-<div class="nav">
-	<h1>hello world</h1>
-</div>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block navbar %}
+{% include 'nav.html' %}
+
+{% endblock navbar %}
+

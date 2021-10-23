@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SignUp</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/signup.css' %}">
+</head>
+<body>
+	<section>
+		<div class="imgBx">
+			<img src="{% static 'images/bg.jpg' %}" alt="" />
+		</div>
+		
+		<div class="contentBx">
+			<div class="formBx">
+				<h2>Signup</h2>
+				<form>
+					<div class="inputBx">
+						<span>Full Name </span>
+						<input type="text" name="">
+					</div>
+					
+
+					<div class="inputBx">
+						<span>Email </span>
+						<input type="Email" name="">
+					</div>
+					<div class="inputBx">
+						<span>Password</span>
+						<input type="Password" name="">
+					</div>
+					<div class="inputBx">
+						<span>Conform Password</span>
+						<input type="Password" name="">
+					</div>
+					<div class="datetime">
+					<label>Date of Birth:</label>
+					<input type="date" name="">
+				    </div>
+					<div class="gender">
+						
+						<input type="radio" name="gender">   Male           <input type="radio" name="gender">   Female
+					</div>
+					<h6 style="color:#607d8b">If you agree our term and condition then click on <b>Submit</b> button</h6>
+					<br>
+					
+					<div class="inputBx">
+					
+						<input type="submit" value="Submit" name="">
+					</div>
+					
+				</form>
+				
+			
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>

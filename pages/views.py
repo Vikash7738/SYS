@@ -4,3 +4,11 @@ from django.http import HttpResponse
 
 def home(request,*args,**kwargs):
 	return render(request,'index.html',{})
+
+def login(request,*args,**kwargs):
+	return render(request,'login.html',{})
+
+
+
+def register(request,*args,**kwargs):
+	return render(request,'signup.html',{})
